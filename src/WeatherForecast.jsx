@@ -9,7 +9,7 @@ function WeatherForecast({weatherForecast}) {
             <h2>{day}</h2>
             <img src={img} alt={imgAlt} />
             <p><span>conditions: {conditions} </span>current weather conditions</p>
-            <p><span>time: {time}</span>time of day</p>
+            <p><span>time: </span>{time}</p>
         </div>
       )
 }
